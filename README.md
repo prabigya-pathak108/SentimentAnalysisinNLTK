@@ -1,0 +1,1 @@
+Here we will simply analyse the sentiment of user based on his text.
