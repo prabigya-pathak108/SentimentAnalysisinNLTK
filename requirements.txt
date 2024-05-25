@@ -1,7 +1,7 @@
 pip 
-streamlit
-pandas
-scikit-learn
-matplotlib
-nltk
-pyenchant
+streamlit==1.34.0
+pandas==2.2.1
+scikit-learn==1.4.2
+matplotlib==3.9.
+nltk==3.8.1
+pyenchant==3.2.2
