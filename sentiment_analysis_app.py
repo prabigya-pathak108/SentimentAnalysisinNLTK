@@ -17,7 +17,8 @@ from collections import defaultdict
 
 import re
 current_dir = os.getcwd()
-d = enchant.Dict("en_US")
+with open('enchant_dict.pkl', 'rb') as f:
+    d = pickle.load(f)
 
 
 
