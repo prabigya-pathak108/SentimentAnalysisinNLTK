@@ -19,6 +19,7 @@ import re
 current_dir = os.getcwd()
 with open('enchant_dict.pkl', 'rb') as f:
     d = pickle.load(f)
+    f.close()
 
 
 
@@ -32,10 +33,12 @@ image_path = "sentiment.jpg"
 # Load the saved model
 with open('sentiment_analysis_model.pkl', 'rb') as f:
     model = pickle.load(f)
+    f.close()
 
 # Load the CountVectorizer
 with open('cv.pkl', 'rb') as f:
     cv = pickle.load(f)
+    f.close()
 
 #Lets define some function for replacement of common sentece use cases
 replacement_patterns = [
