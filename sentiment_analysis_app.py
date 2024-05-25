@@ -7,7 +7,7 @@ import os
 #import sklearn
 
 import nltk
-import enchant   #for spelling correction and checking
+#import enchant   #for spelling correction and checking
 from nltk.metrics import edit_distance  # to find the case where spelling correction is needed
 
 from nltk.corpus import wordnet as wn,stopwords
